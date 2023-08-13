@@ -1,0 +1,80 @@
+#main{
+width: 100%;
+height: 500px;
+border: 2px solid black;
+margin: 50px;
+background-color: rgba(7, 193, 239, 0.379);
+
+}
+#header{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 22px;
+    background-color: aqua;
+}
+#navbar1,#navbar2,#navbar3,#navbar4,#navbar5{
+    width: 19.6%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    font-size: 22px;
+    background-color: aquamarine;
+}
+#bar1,#bar2,#bar3,#bar4,#bar5{
+    width: 15%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+    font-size: 22px;
+    background-color: beige;
+}
+#bar6{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+    position:relative;
+    bottom: 258px;
+    font-size: 22px;
+    background-color: rgb(141, 141, 190);
+}
+
+#maincontent{
+    width: 84.8%;
+    height: 258px;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    position:relative;
+    bottom: 260px;
+    margin-top: 2px;
+    font-size: 22px;
+    background-color: rgba(165, 42, 42, 0.557);
+}
+
+#bar7,#bar8,#bar9{
+    width:33%;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    clear: both;
+    font-size: 22px;
+    display: inline-block;
+    position:relative;
+    bottom: 259px;
+    background-color: chartreuse;
+}
+
+
+#header:hover, #navbar1:hover,#navbar2:hover,#navbar3:hover,#navbar4:hover,#navbar5:hover,#bar1:hover,#bar2:hover,#bar3:hover,#bar4:hover,#bar5:hover,#bar6:hover,#bar7:hover,#bar8:hover,#bar9:hover,#maincontent:hover{
+    background-color: darkorange;
+    cursor: pointer;
+}
+
+
